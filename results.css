@@ -1,0 +1,84 @@
+
+/* General styling */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: white;
+}
+
+/* Page heading */
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    color: #003366;
+}
+
+header h2 {
+    color: #444444;
+}
+
+/* Metadata bar */
+
+.metadata {
+    background-color: #EEEEEE;
+    text-align: center;
+    padding: 12px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Results table */
+
+table {
+    width: 95%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+/* Table cells */
+
+th, td {
+    border: 1px solid #cccccc;
+    padding: 12px;
+    text-align: center;
+}
+
+/* Table header */
+
+thead {
+    background-color: #003366;
+    color: white;
+}
+
+/* Main heading row */
+
+thead tr:first-child {
+    background-color: #002244;
+    font-size: 18px;
+}
+
+/* Alternating row colours */
+
+tbody tr:nth-child(odd) {
+    background-color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #FFF8F4;
+}
+
+/* Footer row */
+
+tfoot {
+    background-color: #EEEEEE;
+    font-weight: bold;
+}
